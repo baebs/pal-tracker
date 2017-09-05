@@ -1,0 +1,33 @@
+cf-api-url: https://api.sys.longs.pal.pivotal.io
+cf-username: baebs@mz.co.kr
+cf-password: 837b39bd
+cf-org: bbae-pal
+github-repository: git@github.com:baebs/pal-tracker.git
+github-private-key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAwrljbZ0rwir7nN6kNh141LARb/104cAB+rN+sTzANR4y/IMc
+  H7TsTEDFSEyArP21PM9vzkLM2wQizMfMO5w/6+yfnp81kgAZMIeG+X7tmp/Y2Ssw
+  x636fomG7fLcA/WU+cAhGzi8v6HXEBCaIAqB5jjB7ivHriVppp0kPbartoeVYhdf
+  injXNcKpNPMUIc29XahSpHh7MMrIyBO1LBvEfl9qqxaJ+/L6ZtbCTdjdDlI9eyoE
+  gb3ehVZD53Kk2Odv3Oi74YlGp/aRL46yZUQ0EPhN5LXbJXXEfVvqwmCPzTNC5zaX
+  9GMYM0k4l99uVFo5Mnyw3MZjuULzdDt9ZrmbjQIDAQABAoIBAEZCnESt5F8gIT+d
+  +gRop/OeP/x3qJfYLx6la35KHFROPDlumVQ7dNOiv0xyBi/lL2LsujvjUIVqPaBE
+  K0YK/+mBrKqQacTvcidXj3Uwvkz/hj/93JEADpVfzCbJbWekUge3snpfA4PlwnLS
+  ero68FoAesEUXO1SJIfwxWXbJqQqL8On2PTvGk5Kpc5Hzm936CknIHq6w0JuD3Zn
+  62+D61s8dF0MtoUcSagw8nRoNfaYLsImuFgEp3ldtTbHuUyM0T30xLlujSpls8th
+  5G1mIUQmTtPuGvECOtGa30T+BNMY4IK1K96YLiqdvn/Lppxa210tS0orNqLIFSYI
+  ORRJKCUCgYEA+NQQ8cIY4n15rXUWsAMg6Ww2iR+dWB1GyaBnwW+KJ3qdc4+UTl+0
+  8UhsPzROqyJUG5THmxaNSwf2fETWx3TfNaXXmC1oN7Uq2RAJAMD5N23wrS7CSFU9
+  WwiVobayMfLu1xKmjr1RQWZi7bAC3t38FxROGIBBfW3AVKjFVDO9ngMCgYEAyFYf
+  12cMoyGyhiYErWW4xdumGhY7/xa/xIRQyfcv6/zoLJe+8vs1jPZVAUAHjg1mXD93
+  LmufcFZ8TL7BwSztU8nP11MjDgHS1GvODmfeF8CvwRPd6YnUGd2uS+e24LQ3rCxS
+  IJR201wmGWSeGfVAxAIMmMdSbm5A6y5aJG4lMy8CgYB7nme4o/RW+X1s5oHZ+gPs
+  050YbMNv1kOnwfAqEq7xRCJbGhbVBQlQ4ekdUXBP5yMf/L9Z1k9l2lPjkxOdTfvi
+  nDzK1qwzGOdrpWLDpBtsJUtvzo4o/2gXBOHJ0Ikg9Y8g/JwQyA9JTYOSkGIstN4b
+  3TObSoS+urrVlG9MkNQAXwKBgE88iTGIJ55qGJMofFcc0Z0oSCUvQCGfnM+cSdvn
+  8cNT73ybtEGkjESptWteKN7Ne/vmejwZAyHKgzVTiYzfOSsXuiX/UvEaVYoA7aoS
+  +OvKIXmrYu0Yv5RPcr3A8zsi7JYjnYQXVHw6iTMn8cRwlWIxMUxIIdldsD2UwsB/
+  9CSvAoGBAMw4V3Xs4sj6J1Kjtd/pwKwtDR/8xhdCJkFZ6MW22/5Qxc6wuHLx1sqA
+  v6MuTCL2xLtnHjd0xLG+W1LdHvCEOUtrM8pKPOXlldAxzbSVetFiAqWoMUoIz++Q
+  Aprpqff96QL3EjmbUGpS+ZUhSIVs5vT/X8xP6PysxJC0nZ0Gcglr
+  -----END RSA PRIVATE KEY-----
