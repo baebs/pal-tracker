@@ -4,6 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @RestController
@@ -17,14 +18,16 @@ public class TimeEntryController {
     }
 
     @PostMapping
-    public ResponseEntity<TimeEntry> create(@RequestBody TimeEntry timeEntry) {
+    public ResponseEntity<TimeEntry> create(@RequestBody TimeEntry timeEntry, HttpServletResponse response) {
+        response.setHeader("Cache-Control", "max-age=3600");
         TimeEntry createdTimeEntry = timeEntriesRepo.create(timeEntry);
 
         return new ResponseEntity<>(createdTimeEntry, HttpStatus.CREATED);
     }
 
     @GetMapping("{id}")
-    public ResponseEntity<TimeEntry> read(@PathVariable Long id) {
+    public ResponseEntity<TimeEntry> read(@PathVariable Long id, HttpServletResponse response) {
+        response.setHeader("Cache-Control", "max-age=3600");
         TimeEntry timeEntry = timeEntriesRepo.find(id);
         if (timeEntry != null) {
             return new ResponseEntity<>(timeEntry, HttpStatus.OK);
@@ -34,12 +37,14 @@ public class TimeEntryController {
     }
 
     @GetMapping
-    public ResponseEntity<List<TimeEntry>> list() {
+    public ResponseEntity<List<TimeEntry>> list(HttpServletResponse response) {
+        response.setHeader("Cache-Control", "max-age=3600");
         return new ResponseEntity<>(timeEntriesRepo.list(), HttpStatus.OK);
     }
 
     @PutMapping("{id}")
-    public ResponseEntity<TimeEntry> update(@PathVariable Long id, @RequestBody TimeEntry timeEntry) {
+    public ResponseEntity<TimeEntry> update(@PathVariable Long id, @RequestBody TimeEntry timeEntry, HttpServletResponse response) {
+        response.setHeader("Cache-Control", "max-age=3600");
         TimeEntry updatedTimeEntry = timeEntriesRepo.update(id, timeEntry);
         if (updatedTimeEntry != null) {
             return new ResponseEntity<>(updatedTimeEntry, HttpStatus.OK);
@@ -49,7 +54,8 @@ public class TimeEntryController {
     }
 
     @DeleteMapping("{id}")
-    public ResponseEntity<TimeEntry> delete(@PathVariable Long id) {
+    public ResponseEntity<TimeEntry> delete(@PathVariable Long id, HttpServletResponse response) {
+        response.setHeader("Cache-Control", "max-age=3600");
         timeEntriesRepo.delete(id);
 
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
