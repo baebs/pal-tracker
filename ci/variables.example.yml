@@ -31,3 +31,6 @@ github-private-key: |
   v6MuTCL2xLtnHjd0xLG+W1LdHvCEOUtrM8pKPOXlldAxzbSVetFiAqWoMUoIz++Q
   Aprpqff96QL3EjmbUGpS+ZUhSIVs5vT/X8xP6PysxJC0nZ0Gcglr
   -----END RSA PRIVATE KEY-----
+aws-access-key-id: <YOUR_ACCESS_KEY>
+aws-secret-access-key: <YOUR_SECRET_KEY>
+aws-bucket: <YOUR_AWS_S3_BUCKET>
