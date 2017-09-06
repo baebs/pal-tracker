@@ -3,5 +3,3 @@ applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   host: baebs-pal-tracker-review
-  env:
-    WELCOME_MESSAGE: Hello from Concourse
