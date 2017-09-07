@@ -17,6 +17,6 @@ public class PalTrackerApplication {
         MysqlDataSource dataSource = new MysqlDataSource();
         dataSource.setUrl(System.getenv("SPRING_DATASOURCE_URL"));
         return new JdbcTimeEntryRepository(dataSource);
-        
+
     }
 }
